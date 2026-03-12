@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Table from "./table";
+
+
 
 
 function App() {
@@ -15,7 +18,7 @@ function App() {
   }
 
 
-  name = +"chavda";
+  // name = +"chavda"; 
   phone = 9624459963
   return <>
     <h1>Hello World</h1>
@@ -26,6 +29,14 @@ function App() {
     <p>age:{age.toString()}</p>
     <p>Phone:{phone.toString()}</p>
     <p>Theme:{istheme.toString()}</p>
+
+    <Table/>
+
+
+    
+
+
+  
 
   </>
 
