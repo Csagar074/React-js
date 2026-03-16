@@ -1,73 +1,119 @@
-# React + TypeScript + Vite
+# React Payment Plan Selector 💳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **React + TypeScript project** that allows users to select a payment plan interactively.
+When a user clicks on a plan box, the payment details update dynamically.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with **React + TypeScript**
+- Uses **State Management**
+- Multiple **Reusable Components**
+- Interactive UI
+- Dynamic payment update on click
 
-## React Compiler
+## 📂 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+Project-1-state-App
+│
+├── public
+├── src
+│   ├── assets
+│   │   └── react.svg
+│   │
+│   ├── components
+│   │   ├── PaymentInfo.tsx
+│   │   ├── PaymentList.tsx
+│   │   ├── Plan100.tsx
+│   │   ├── Plan200.tsx
+│   │   ├── Plan300.tsx
+│   │   ├── Plan400.tsx
+│   │   ├── Plan500.tsx
+│   │   └── paymentinfo.css
+│   │
+│   ├── App.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   ├── index.css
+│   └── payments.css
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 How It Works
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. The application displays **multiple payment plan boxes**.
+2. Each box represents a **different payment amount**.
+3. When the user clicks a box:
+   - The **active plan changes**
+   - Payment information updates instantly.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Example Plans:
+
+- Plan ₹100
+- Plan ₹200
+- Plan ₹300
+- Plan ₹400
+- Plan ₹500
+
+## 🛠️ Technologies Used
+
+- React
+- TypeScript
+- CSS
+- Vite
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/react-payment-plan.git
 ```
+
+Go to project folder:
+
+```bash
+cd react-payment-plan
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## 📸 UI Preview
+
+The UI contains:
+
+- Interactive payment boxes
+- Dynamic payment details
+- Clean responsive layout
+
+## 📚 Learning Concepts
+
+This project demonstrates:
+
+- React **useState**
+- **Component based architecture**
+- **Props passing**
+- Dynamic UI updates
+- TypeScript with React
+
+## 👨‍💻 Author
+
+**Sagar Chavda**
+
+## 📄 License
+
+This project is open-source and free to use.

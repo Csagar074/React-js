@@ -1,0 +1,26 @@
+.boxes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.box {
+  opacity: 0;
+  transform: translateY(12px) scale(0.98);
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  transition: box-shadow 150ms, transform 120ms;
+  animation: appear 360ms forwards cubic-bezier(.2,.8,.2,1);
+}
+
+/* slight hover and active styles */
+.box:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.08); transform: translateY(0) scale(1); }
+.box.active { border-color: #0b74de; box-shadow: 0 8px 20px rgba(11,116,222,0.12); }
+
+/* keyframes for appear; animationDelay set per-item inline */
+@keyframes appear {
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}

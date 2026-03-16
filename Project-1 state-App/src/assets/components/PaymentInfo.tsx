@@ -1,21 +1,27 @@
-import React from "react";
-
-type PaymentInfoProps = {
-  activeBox: number | null;
-  payments: number[];
+type Props = {
+  activePlan: number | null;
+  onCancel: () => void;
 };
 
-function PaymentInfo({ activeBox, payments }: PaymentInfoProps) {
-  if (activeBox === null) {
-    return <h2>Please select a payment plan</h2>;
+export default function PaymentInfo({ activePlan, onCancel }: Props) {
+  const prices = [100, 200, 300, 400, 500];
+
+  if (activePlan === null) {
+    return <p className="selectText">👆 Please select a cab plan</p>;
   }
 
   return (
     <div className="paymentInfo">
-      <h2>Selected Payment</h2>
-      <p>You need to pay ₹{payments[activeBox]}</p>
+      <h3>✅ Selected Ride</h3>
+      <h2>₹{prices[activePlan]}</h2>
+
+      <button className="payBtn">
+        Book Cab ₹{prices[activePlan]}
+      </button>
+
+      <button className="cancelBtn" onClick={onCancel}>
+        ✕ Cancel
+      </button>
     </div>
   );
 }
-
-export default PaymentInfo;
