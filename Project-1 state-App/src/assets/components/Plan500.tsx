@@ -11,4 +11,4 @@ export default function Plan500({ active, onClick }: Props) {
       <h2>₹500</h2>
     </div>
   );
-}
+} 
