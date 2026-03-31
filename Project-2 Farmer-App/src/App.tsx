@@ -10,12 +10,12 @@ import Footer from "./Footer";
 function App() {
   return <>
     <Navbar />
-    <Hero />
-    <About />
-    <Featured />
+    <div id="home"><Hero /></div>
+    <div id="farms"><Featured /></div>
+    <div id="about"><About /></div>
     <Why />
     <HowItWorks />
-    <Explore />
+    <div id="blog"><Explore /></div>
     <Footer />
   </>
 }
