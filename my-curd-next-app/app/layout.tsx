@@ -1,7 +1,6 @@
 
-import Card from "./components/Card";
+import { ToastContainer } from "react-toastify";
 import NavBar from "./components/Navbar";
-import Slider from "./components/Slider";
 import "./globals.css";
 
 export default function RootLayout({
@@ -13,11 +12,10 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
         <NavBar />
-        <Slider/>
-        <Card/>
         {children}
+
+        <ToastContainer />
       </body>
     </html>
   );
 }
-   
