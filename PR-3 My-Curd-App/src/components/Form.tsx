@@ -74,9 +74,9 @@ export default function Form({
 
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!email) {
-      newError.email = "email is required..";
+      newError.email = "Email is required.";
     } else if (!emailPattern.test(email)) {
-      newError.email = "Invalid email address...";
+      newError.email = "Email is not perfect. Please enter a valid email (e.g. user@example.com)";
     }
 
     const phonePattern = /^(\+91[\-\s]?)?[0]?(91)?[6789]\d{9}$/;
@@ -226,7 +226,7 @@ export default function Form({
                 Email Address <span className="text-red-500">*</span>
               </label>
               <input
-                type="email"
+                type="text"
                 id="email"
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}

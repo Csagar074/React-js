@@ -41,6 +41,7 @@ export default function AddBook() {
         ...prev, 
         [name]: (name === 'copies') ? Number(value) : value 
     }));
+    setErrorForm((prev: any) => ({ ...prev, [name]: undefined }));
   };
 
   const onLanguageChange = (event: any) => {
@@ -51,6 +52,7 @@ export default function AddBook() {
         ? [...prev.languages, value] 
         : prev.languages.filter(lang => lang !== value)
     }));
+    setErrorForm((prev: any) => ({ ...prev, languages: undefined }));
   };
 
   const validation = () => {
@@ -130,7 +132,7 @@ export default function AddBook() {
                 name="copies"
                 value={formBookData.copies}
                 onChange={onHandleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 outline-none"
+                className={`w-full px-4 py-3 border ${errorForm.copies ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-emerald-500 outline-none`}
               />
               {errorForm.copies && <p className="text-red-500 text-xs">{errorForm.copies}</p>}
             </div>
@@ -142,11 +144,12 @@ export default function AddBook() {
                 name="genre"
                 value={formBookData.genre}
                 onChange={onHandleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 outline-none bg-white"
+                className={`w-full px-4 py-3 border ${errorForm.genre ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-emerald-500 outline-none bg-white`}
               >
                 <option value="">Select Genre</option>
                 {genres.map(g => <option key={g} value={g}>{g}</option>)}
               </select>
+              {errorForm.genre && <p className="text-red-500 text-xs">{errorForm.genre}</p>}
             </div>
           </div>
 

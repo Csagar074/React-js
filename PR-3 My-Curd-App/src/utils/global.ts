@@ -1,6 +1,6 @@
 
 // Global Variable
-export type studentType = {
+export type employeeType = {
     fName: string,
     lName: string,
     email: string,
