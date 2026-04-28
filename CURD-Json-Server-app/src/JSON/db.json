@@ -1,55 +1,465 @@
 {
   "product": [
-    { "id": "C001", "p_name": "Tesla Model S", "p_price": 12000, "p_stock": 5, "p_image": "https://images.unsplash.com/photo-1617788138017-80ad42243c59?q=80&w=800", "p_category": "Electric", "p_description": "Luxury electric sedan with Ludicrous+ mode and 400+ mile range." },
-    { "id": "C002", "p_name": "BMW M4 Competition", "p_price": 15000, "p_stock": 3, "p_image": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800", "p_category": "Sports", "p_description": "High-performance coupe with 503 hp and precision handling." },
-    { "id": "C003", "p_name": "Audi Q8", "p_price": 18000, "p_stock": 4, "p_image": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?q=80&w=800", "p_category": "Luxury SUV", "p_description": "The definitive luxury SUV, combining elegance with off-road power." },
-    { "id": "C004", "p_name": "Mercedes-Benz G-Wagon", "p_price": 35000, "p_stock": 2, "p_image": "https://images.unsplash.com/photo-1520031441872-265e4ff70366?q=80&w=800", "p_category": "Luxury", "p_description": "Iconic luxury off-roader with unmatched presence and V8 power." },
-    { "id": "C005", "p_name": "Range Rover Sport", "p_price": 20000, "p_stock": 6, "p_image": "https://images.unsplash.com/photo-1590362891991-f776e747a588?q=80&w=800", "p_category": "SUV", "p_description": "Sophisticated capability and refined comfort for any terrain." },
-    { "id": "C006", "p_name": "Porsche 911 Carrera", "p_price": 45000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=800", "p_category": "Sports", "p_description": "The legendary sports car experience with timeless design." },
-    { "id": "C007", "p_name": "Ford Mustang GT", "p_price": 10000, "p_stock": 8, "p_image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?q=80&w=800", "p_category": "Muscle", "p_description": "Raw American muscle with a roaring 5.0L V8 engine." },
-    { "id": "C008", "p_name": "Lamborghini Huracan", "p_price": 95000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800", "p_category": "Exotic", "p_description": "Pure Italian adrenaline. V10 engine and striking aerodynamics." },
-    { "id": "C009", "p_name": "Toyota Fortuner", "p_price": 7000, "p_stock": 12, "p_image": "https://images.unsplash.com/photo-1621285853634-713b8dd6b5ee?q=80&w=800", "p_category": "SUV", "p_description": "Reliable off-road king, perfect for group trips and long drives." },
-    { "id": "C010", "p_name": "Honda Civic Type R", "p_price": 6000, "p_stock": 7, "p_image": "https://images.unsplash.com/photo-1594070319944-7c0c63146b7a?q=80&w=800", "p_category": "Sports", "p_description": "The ultimate front-wheel-drive performance machine." },
-    { "id": "C011", "p_name": "Jeep Wrangler Rubicon", "p_price": 9000, "p_stock": 5, "p_image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800", "p_category": "Off-Road", "p_description": "Go anywhere with the most capable Jeep ever made." },
-    { "id": "C012", "p_name": "Ferrari 488 Pista", "p_price": 110000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=800", "p_category": "Exotic", "p_description": "Track-level performance in a road-legal masterpiece." },
-    { "id": "C013", "p_name": "Hyundai Ioniq 5", "p_price": 8000, "p_stock": 10, "p_image": "https://images.unsplash.com/photo-1662453181829-0ec69b071720?q=80&w=800", "p_category": "Electric", "p_description": "Futuristic design meets ultra-fast charging technology." },
-    { "id": "C014", "p_name": "Kia EV6 GT", "p_price": 8500, "p_stock": 9, "p_image": "https://images.unsplash.com/photo-1644310129759-4d643592652b?q=80&w=800", "p_category": "Electric", "p_description": "A high-performance electric crossover with stunning speed." },
-    { "id": "C015", "p_name": "Rolls-Royce Ghost", "p_price": 150000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?q=80&w=800", "p_category": "Luxury", "p_description": "The pinnacle of silent, effortless luxury travel." },
-    { "id": "C016", "p_name": "Bentley Continental GT", "p_price": 40000, "p_stock": 2, "p_image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?q=80&w=800", "p_category": "Luxury", "p_description": "Combining grand touring comfort with supercar power." },
-    { "id": "C017", "p_name": "Nissan GT-R Nismo", "p_price": 25000, "p_stock": 2, "p_image": "https://images.unsplash.com/photo-1566274360936-692e0df1e991?q=80&w=800", "p_category": "Sports", "p_description": "The 'Godzilla' of the road. AWD precision and twin-turbo V6." },
-    { "id": "C018", "p_name": "Jaguar F-Type", "p_price": 14000, "p_stock": 4, "p_image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800", "p_category": "Sports", "p_description": "A beautiful British sports car with a spine-tingling exhaust note." },
-    { "id": "C019", "p_name": "Land Rover Defender", "p_price": 13000, "p_stock": 6, "p_image": "https://images.unsplash.com/photo-1605515298946-d062f2e9da53?q=80&w=800", "p_category": "Off-Road", "p_description": "Reinvented icon. Rugged, capable, and tech-forward." },
-    { "id": "C020", "p_name": "Volvo XC90 Recharge", "p_price": 11000, "p_stock": 8, "p_image": "https://images.unsplash.com/photo-1567113300190-33c647890f05?q=80&w=800", "p_category": "Hybrid SUV", "p_description": "The safest luxury SUV with a plug-in hybrid powertrain." },
-    { "id": "C021", "p_name": "Lexus LC 500", "p_price": 16000, "p_stock": 3, "p_image": "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?q=80&w=800", "p_category": "Luxury Coupe", "p_description": "Art on wheels with a naturally aspirated 5.0L V8." },
-    { "id": "C022", "p_name": "Maserati MC20", "p_price": 50000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1627454820516-dc767bcb4d3e?q=80&w=800", "p_category": "Exotic", "p_description": "Nettuno engine technology in a stunning Italian body." },
-    { "id": "C023", "p_name": "Aston Martin DBS", "p_price": 55000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1619682817481-e994891cd1f5?q=80&w=800", "p_category": "Luxury", "p_description": "The ultimate grand tourer, as seen in the finest films." },
-    { "id": "C024", "p_name": "Volkswagen Golf R", "p_price": 5500, "p_stock": 10, "p_image": "https://images.unsplash.com/photo-1606220838315-056192d5e927?q=80&w=800", "p_category": "Hatchback", "p_description": "All-weather performance in a practical, premium package." },
-    { "id": "C025", "p_name": "Chevrolet Corvette Z06", "p_price": 18000, "p_stock": 3, "p_image": "https://images.unsplash.com/photo-1588182530188-144a39f8294c?q=80&w=800", "p_category": "Sports", "p_description": "Mid-engine supercar performance at a fraction of the cost." },
-    { "id": "C026", "p_name": "Subaru WRX STI", "p_price": 5000, "p_stock": 6, "p_image": "https://images.unsplash.com/photo-1605333169421-4582e0917a41?q=80&w=800", "p_category": "Sports", "p_description": "Rally-bred performance with legendary Symmetrical AWD." },
-    { "id": "C027", "p_name": "Mini Cooper S", "p_price": 4000, "p_stock": 15, "p_image": "https://images.unsplash.com/photo-1549405187-0177726488d5?q=80&w=800", "p_category": "Compact", "p_description": "Go-kart handling and iconic style for city driving." },
-    { "id": "C028", "p_name": "Cadillac Escalade V", "p_price": 25000, "p_stock": 3, "p_image": "https://images.unsplash.com/photo-1635773100239-d37f3977c5e6?q=80&w=800", "p_category": "Luxury SUV", "p_description": "Supercharged V8 power in a massive luxury shell." },
-    { "id": "C029", "p_name": "Lucid Air Sapphire", "p_price": 30000, "p_stock": 2, "p_image": "https://images.unsplash.com/photo-1662453181829-0ec69b071720?q=80&w=800", "p_category": "Electric", "p_description": "The world's most powerful electric luxury sedan." },
-    { "id": "C030", "p_name": "Bugatti Chiron", "p_price": 500000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=800", "p_category": "Exotic", "p_description": "A feat of engineering. 1500 hp and 261+ mph top speed." },
-    { "id": "C031", "p_name": "Toyota GR Supra", "p_price": 9000, "p_stock": 5, "p_image": "https://images.unsplash.com/photo-1611859328053-3cbc9f9399f4?q=80&w=800", "p_category": "Sports", "p_description": "The return of a legend. Inline-6 turbo and perfect balance." },
-    { "id": "C032", "p_name": "BMW X7", "p_price": 17000, "p_stock": 4, "p_image": "https://images.unsplash.com/photo-1556121126-e990c3bc88fd?q=80&w=800", "p_category": "Luxury SUV", "p_description": "Full-size luxury and three rows of premium comfort." },
-    { "id": "C033", "p_name": "Tesla Cybertruck", "p_price": 22000, "p_stock": 2, "p_image": "https://images.unsplash.com/photo-1614202241590-9551e894220b?q=80&w=800", "p_category": "Electric Truck", "p_description": "Exoskeleton design with armor glass and insane torque." },
-    { "id": "C034", "p_name": "Mercedes-AMG GT", "p_price": 32000, "p_stock": 3, "p_image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=800", "p_category": "Sports", "p_description": "Handcrafted V8 Biturbo power and race-derived tech." },
-    { "id": "C035", "p_name": "Alfa Romeo Giulia QV", "p_price": 12000, "p_stock": 4, "p_image": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?q=80&w=800", "p_category": "Luxury Sedan", "p_description": "Italian soul with a Ferrari-derived twin-turbo V6." },
-    { "id": "C036", "p_name": "McLaren 720S", "p_price": 80000, "p_stock": 1, "p_image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?q=80&w=800", "p_category": "Exotic", "p_description": "Lightweight carbon fiber chassis and incredible speed." },
-    { "id": "C037", "p_name": "Rivian R1S", "p_price": 14000, "p_stock": 5, "p_image": "https://images.unsplash.com/photo-1678252277800-47a328198751?q=80&w=800", "p_category": "Electric SUV", "p_description": "Adventure-ready electric SUV for the modern explorer." },
-    { "id": "C038", "p_name": "GMC Hummer EV", "p_price": 28000, "p_stock": 2, "p_image": "https://images.unsplash.com/photo-1631553127988-77f642646271?q=80&w=800", "p_category": "Electric SUV", "p_description": "CrabWalk capability and 1000 hp electric performance." },
-    { "id": "C039", "p_name": "Lotus Emira", "p_price": 15000, "p_stock": 3, "p_image": "https://images.unsplash.com/photo-1637685655517-5750058b88d8?q=80&w=800", "p_category": "Sports", "p_description": "The last internal combustion Lotus. Pure driving bliss." },
-    { "id": "C040", "p_name": "Audi e-tron GT", "p_price": 16000, "p_stock": 6, "p_image": "https://images.unsplash.com/photo-1614200024993-9480110317b2?q=80&w=800", "p_category": "Electric", "p_description": "Electric grand tourer with Audi’s signature quattro AWD." },
-    { "id": "C041", "p_name": "Suzuki Jimny", "p_price": 4500, "p_stock": 10, "p_image": "https://images.unsplash.com/photo-1582236940899-733e83955614?q=80&w=800", "p_category": "Off-Road", "p_description": "Small, lightweight, and surprisingly capable off-roader." },
-    { "id": "C042", "p_name": "Toyota Camry Hybrid", "p_price": 5000, "p_stock": 20, "p_image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=800", "p_category": "Sedan", "p_description": "The gold standard for efficient and reliable city travel." },
-    { "id": "C043", "p_name": "Mazda MX-5 Miata", "p_price": 4000, "p_stock": 8, "p_image": "https://images.unsplash.com/photo-1552519507-8022944b20a1?q=80&w=800", "p_category": "Convertible", "p_description": "Lightweight, open-top fun with a perfect 50:50 weight balance." },
-    { "id": "C044", "p_name": "Dodge Challenger Hellcat", "p_price": 12000, "p_stock": 4, "p_image": "https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?q=80&w=800", "p_category": "Muscle", "p_description": "717 hp of supercharged muscle car dominance." },
-    { "id": "C045", "p_name": "Genesis G90", "p_price": 13000, "p_stock": 5, "p_image": "https://images.unsplash.com/photo-1658421884021-d70377519106?q=80&w=800", "p_category": "Luxury Sedan", "p_description": "Redefining luxury with a refined ride and top-tier tech." },
-    { "id": "C046", "p_name": "Polestar 2", "p_price": 7500, "p_stock": 12, "p_image": "https://images.unsplash.com/photo-1620291154346-48edc7ef6fd1?q=80&w=800", "p_category": "Electric", "p_description": "Scandinavian minimalist design with electric performance." },
-    { "id": "C047", "p_name": "Ford F-150 Raptor", "p_price": 11000, "p_stock": 6, "p_image": "https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?q=80&w=800", "p_category": "Truck", "p_description": "High-performance desert runner pickup truck." },
-    { "id": "C048", "p_name": "Acura NSX Type S", "p_price": 28000, "p_stock": 2, "p_image": "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?q=80&w=800", "p_category": "Hybrid Sports", "p_description": "Hybrid supercar with instant torque and SH-AWD precision." },
-    { "id": "C049", "p_name": "Lincoln Navigator", "p_price": 16000, "p_stock": 4, "p_image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800", "p_category": "Luxury SUV", "p_description": "First-class travel for up to eight passengers." },
-    { "id": "C050", "p_name": "Honda Accord Hybrid", "p_price": 4800, "p_stock": 15, "p_image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=800", "p_category": "Sedan", "p_description": "Spacious, efficient, and packed with advanced safety tech." }
+    {
+      "id": "rqAlCghbHGk",
+      "p_name": "iPhone 17",
+      "p_price": 85000,
+      "p_stock": 10,
+      "p_image": "https://www.apple.com/newsroom/images/2025/09/apple-debuts-iphone-17/geo/article/Apple-iPhone-17-hero-250909_inline.jpg.large_2x.jpg",
+      "p_category": "Electronic",
+      "p_description": "iPhone 17. Center Stage front camera. A19 chip. 6.3″ ProMotion display."
+    },
+    {
+      "id": "kmvjsvCbzJA",
+      "p_name": "T-Shirt",
+      "p_price": 699,
+      "p_stock": 20,
+      "p_image": "https://static.vecteezy.com/system/resources/previews/023/701/925/large_2x/closeup-t-shirt-on-men-illustration-ai-generative-free-photo.jpg",
+      "p_category": "Fashion",
+      "p_description": "Self Design Men Zip Neck Dark Green T-Shirt. Premium Cotton blend."
+    },
+    {
+      "id": "CVX_pe20zMU",
+      "p_name": "Blue Striped Cushion Cover",
+      "p_price": 350,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Elegant makeover with evergreen stripes and classic florals."
+    },
+    {
+      "id": "CrTUWkB-q0k",
+      "p_name": "LG Smart Android Digital TV",
+      "p_price": 48000,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Alpha 11 AI Processor 4K. Brighter visuals with Brightness Booster Max."
+    },
+    {
+      "id": "E101_Sp",
+      "p_name": "Professional Cricket Bat",
+      "p_price": 5200,
+      "p_stock": 15,
+      "p_image": "https://m.media-amazon.com/images/I/41Qnfj18Y3L._AC_UL480_FMwebp_QL65_.jpg",
+      "p_category": "Sports",
+      "p_description": "Grade 1 English Willow. Perfect balance for power hitters."
+    },
+    {
+      "id": "E102_El",
+      "p_name": "Noise Cancelling Headphones",
+      "p_price": 14500,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Active Noise Cancellation, 40-hour battery life, and spatial audio."
+    },
+    {
+      "id": "E103_Fa",
+      "p_name": "Leather Chelsea Boots",
+      "p_price": 4200,
+      "p_stock": 12,
+      "p_image": "https://tse4.mm.bing.net/th/id/OIP.fN-EEfc_xcvc9z8Q85LFlgHaJo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "p_category": "Fashion",
+      "p_description": "Premium tan leather with durable elastic side panels."
+    },
+    {
+      "id": "E104_HL",
+      "p_name": "Modern Ceramic Vase",
+      "p_price": 999,
+      "p_stock": 25,
+      "p_image": "https://m.media-amazon.com/images/I/61UeG8BT1mL._AC_SL1500_.jpg",
+      "p_category": "Home & Living",
+      "p_description": "Handcrafted minimalist white ceramic vase for contemporary decor."
+    },
+    {
+      "id": "E105_Sp",
+      "p_name": "Yoga Mat Non-Slip",
+      "p_price": 1500,
+      "p_stock": 30,
+      "p_image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/055121/02/fnd/IND/fmt/png/Everyday-Printed-Yoga-Mat---5mm",
+      "p_category": "Sports",
+      "p_description": "6mm eco-friendly TPE material with alignment lines."
+    },
+    {
+      "id": "E106_El",
+      "p_name": "Mechanical Gaming Keyboard",
+      "p_price": 6200,
+      "p_stock": 18,
+      "p_image": "https://m.media-amazon.com/images/I/81FXE5u1xNL._AC_.jpg",
+      "p_category": "Electronic",
+      "p_description": "RGB backlit, tactile blue switches, anti-ghosting keys."
+    },
+    {
+      "id": "E107_Fa",
+      "p_name": "Floral Summer Dress",
+      "p_price": 2100,
+      "p_stock": 14,
+      "p_image": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Lightweight breathable cotton with vintage floral print."
+    },
+    {
+      "id": "E108_HL",
+      "p_name": "Bamboo Bath Towel Set",
+      "p_price": 1350,
+      "p_stock": 40,
+      "p_image": "https://bedvoyage.com/cdn/shop/files/Spa-6pc-Bamboo-Towel-Set-Ocean-BV-Main_fb199d67-3173-40f6-9063-a88462eed7bc.jpg?crop=center&height=2000&v=1730936848&width=2000",
+      "p_category": "Home & Living",
+      "p_description": "Set of 4 ultra-absorbent and antibacterial bamboo fiber towels."
+    },
+    {
+      "id": "E109_Sp",
+      "p_name": "Adjustable Dumbbell Set",
+      "p_price": 9500,
+      "p_stock": 6,
+      "p_image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "20kg total weight. Fast adjustment dial system."
+    },
+    {
+      "id": "E110_El",
+      "p_name": "Mirrorless 4K Camera",
+      "p_price": 92000,
+      "p_stock": 4,
+      "p_image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "24.2 MP, 4K video recording, and high-speed autofocus."
+    },
+    {
+      "id": "E111_Fa",
+      "p_name": "Aviator Sunglasses",
+      "p_price": 2800,
+      "p_stock": 22,
+      "p_image": "https://tse4.mm.bing.net/th/id/OIP.gHalb5LXQKTIfIT8tGTQzQHaDt?r=0&w=900&h=450&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "p_category": "Fashion",
+      "p_description": "Polarized lenses with classic gold metal frames."
+    },
+    {
+      "id": "E112_HL",
+      "p_name": "Memory Foam Pillow",
+      "p_price": 1800,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Ergonomic design for neck support and cool-gel infusion."
+    },
+    {
+      "id": "E113_Sp",
+      "p_name": "Football Boots (Cleats)",
+      "p_price": 3800,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Lightweight synthetic upper for maximum speed and grip."
+    },
+    {
+      "id": "E114_El",
+      "p_name": "Smart Fitness Watch",
+      "p_price": 5500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Heart rate monitor, GPS, and OLED always-on display."
+    },
+    {
+      "id": "E115_Fa",
+      "p_name": "Denim Jacket",
+      "p_price": 2600,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic blue trucker jacket with button-down front."
+    },
+    {
+      "id": "E116_HL",
+      "p_name": "Scented Soy Candle",
+      "p_price": 550,
+      "p_stock": 60,
+      "p_image": "https://th.bing.com/th/id/OPAC.fjCIIfdN4NEHGA474C474?w=592&h=550&o=5&dpr=1.3&pid=21.1",
+      "p_category": "Home & Living",
+      "p_description": "Lavender and Eucalyptus essential oils for relaxation."
+    },
+    {
+      "id": "E117_Sp",
+      "p_name": "Badminton Racket Set",
+      "p_price": 2100,
+      "p_stock": 12,
+      "p_image": "https://5.imimg.com/data5/SELLER/Default/2024/3/400727823/KK/VR/UM/5068136/ball-badminton-racket-1000x1000.jpg",
+      "p_category": "Sports",
+      "p_description": "Carbon fiber frame with 2 rackets and 3 shuttlecocks."
+    },
+    {
+      "id": "E118_El",
+      "p_name": "Wireless Charging Pad",
+      "p_price": 1800,
+      "p_stock": 45,
+      "p_image": "https://a-us.storyblok.com/f/1014296/2430x2073/d25e73a3d5/qi2-trio-wireless-charging-pad-lifestyle-8.webp/m/",
+      "p_category": "Electronic",
+      "p_description": "15W fast charging, compatible with all Qi-enabled devices."
+    },
+    {
+      "id": "E119_Fa",
+      "p_name": "Running Sneakers",
+      "p_price": 4999,
+      "p_stock": 16,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Breathable mesh with foam cushioning for long distance."
+    },
+    {
+      "id": "E120_HL",
+      "p_name": "Cast Iron Skillet",
+      "p_price": 3200,
+      "p_stock": 10,
+      "p_image": "https://image.shutterstock.com/image-photo/cast-iron-skillets-spices-on-260nw-1373695076.jpg",
+      "p_category": "Home & Living",
+      "p_description": "Pre-seasoned 12-inch heavy duty pan for searing."
+    },
+    {
+      "id": "E121_Sp",
+      "p_name": "Swimming Goggles",
+      "p_price": 750,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1551927336-09d50efd69cd?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Anti-fog, UV protection, and leak-proof silicone seal."
+    },
+    {
+      "id": "E122_El",
+      "p_name": "Portable Bluetooth Speaker",
+      "p_price": 3500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1543512214-318c7553f230?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Waterproof IPX7 rating with deep bass and 12h playtime."
+    },
+    {
+      "id": "E123_Fa",
+      "p_name": "Cotton Chinos",
+      "p_price": 1900,
+      "p_stock": 25,
+      "p_image": "https://tse2.mm.bing.net/th/id/OIP.JkTknEQlu1san_BlZFRCPAAAAA?r=0&w=307&h=763&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "p_category": "Fashion",
+      "p_description": "Slim-fit casual trousers in khaki beige."
+    },
+    {
+      "id": "E124_HL",
+      "p_name": "Electric Coffee Grinder",
+      "p_price": 2600,
+      "p_stock": 15,
+      "p_image": "https://tse4.mm.bing.net/th/id/OIP.cV08F8sTggwql7pqNpgeVQHaKv?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "p_category": "Home & Living",
+      "p_description": "Stainless steel blades for coarse to fine coffee grounds."
+    },
+    {
+      "id": "E125_Sp",
+      "p_name": "Tennis Racket",
+      "p_price": 6200,
+      "p_stock": 8,
+      "p_image": "https://th.bing.com/th/id/OIP.2cEO2le1w_w-LRf9rMQIWwHaFh?w=245&h=183&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Sports",
+      "p_description": "Pro-style graphite racket for high control and spin."
+    },
+    {
+      "id": "E126_El",
+      "p_name": "External SSD 1TB",
+      "p_price": 12000,
+      "p_stock": 30,
+      "p_image": "https://rukminim2.flixcart.com/image/612/612/xif0q/external-hard-drive/j/l/6/-original-imahfh6mevg34r3v.jpeg?q=70",
+      "p_category": "Electronic",
+      "p_description": "Ultra-fast read/write speeds, USB-C compatible."
+    },
+    {
+      "id": "E127_Fa",
+      "p_name": "Wool Knit Sweater",
+      "p_price": 2499,
+      "p_stock": 12,
+      "p_image": "https://th.bing.com/th/id/OIP.fIaUTKOKZ0KfAtUkCbi1BgHaJb?w=208&h=264&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Fashion",
+      "p_description": "Warm merino wool blend in navy blue."
+    },
+    {
+      "id": "E128_HL",
+      "p_name": "Blackout Curtains",
+      "p_price": 2200,
+      "p_stock": 20,
+      "p_image": "https://th.bing.com/th/id/OIP.0MPiZg09eVrEWzmI1qYGHQHaHa?w=145&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Home & Living",
+      "p_description": "Thermal insulated curtains that block 99% of sunlight."
+    },
+    {
+      "id": "E129_Sp",
+      "p_name": "Resistance Band Set",
+      "p_price": 1100,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "5 levels of resistance for home strength training."
+    },
+    {
+      "id": "E130_El",
+      "p_name": "Wi-Fi Range Extender",
+      "p_price": 2100,
+      "p_stock": 25,
+      "p_image": "data:image/webp;base64,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",
+      "p_category": "Electronic",
+      "p_description": "Boosts Wi-Fi signal to dead zones throughout the home."
+    },
+    {
+      "id": "E131_Fa",
+      "p_name": "Silk Necktie",
+      "p_price": 899,
+      "p_stock": 65,
+      "p_image": "https://th.bing.com/th/id/OIP._oGDVgaOngnBhi6WJRMgYQHaHa?w=237&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Fashion",
+      "p_description": "Handmade 100% silk tie in charcoal grey."
+    },
+    {
+      "id": "E132_HL",
+      "p_name": "Indoor Palm Plant",
+      "p_price": 1500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Live Areca Palm in a decorative pot for air purification."
+    },
+    {
+      "id": "E133_Sp",
+      "p_name": "Punching Bag (Unfilled)",
+      "p_price": 2299,
+      "p_stock": 15,
+      "p_image": "https://rukminim2.flixcart.com/image/1528/1528/xif0q/kit/y/p/p/unfilled-heavy-premium-2-ft-black-srf-punching-bag-hand-wrap-original-imahg2tygwrkzuwd.jpeg?q=90",
+      "p_category": "Sports",
+      "p_description": "Heavy-duty synthetic leather for boxing training."
+    },
+    {
+      "id": "E134_El",
+      "p_name": "Graphics Tablet",
+      "p_price": 10000,
+      "p_stock": 12,
+      "p_image": "https://th.bing.com/th/id/OIP.1-6KHMvQbNJZsXcDBSKcvQHaFL?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "p_category": "Electronic",
+      "p_description": "8192 levels of pressure sensitivity for digital artists."
+    },
+    {
+      "id": "E135_Fa",
+      "p_name": "Crossbody Leather Bag",
+      "p_price": 3500,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Compact genuine leather bag with adjustable strap."
+    },
+    {
+      "id": "E136_HL",
+      "p_name": "Wall Clock Modern",
+      "p_price": 850,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Silent non-ticking mechanism with wooden finish."
+    },
+    {
+      "id": "E137_Sp",
+      "p_name": "Skateboard Maple",
+      "p_price": 2999,
+      "p_stock": 20,
+      "p_image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/14379311a.webp",
+      "p_category": "Sports",
+      "p_description": "7-ply Canadian maple deck with high-grip wheels."
+    },
+    {
+      "id": "E138_El",
+      "p_name": "E-Reader Paper-White",
+      "p_price": 12500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Glare-free display, weeks of battery, and waterproof."
+    },
+    {
+      "id": "E139_Fa",
+      "p_name": "Beanie Hat",
+      "p_price": 550,
+      "p_stock": 45,
+      "p_image": "https://th.bing.com/th/id/OIP.ZbGTDJQ4V3JMsEDDL5dO1gHaHa?w=179&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Fashion",
+      "p_description": "Soft ribbed knit beanie for winter comfort."
+    },
+    {
+      "id": "E140_HL",
+      "p_name": "Electric Kettle",
+      "p_price": 1999,
+      "p_stock": 25,
+      "p_image": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-kettle/w/2/f/-original-imahfxnykxz72twt.jpeg?q=70",
+      "p_category": "Home & Living",
+      "p_description": "1.7L capacity with auto-shutoff and boil-dry protection."
+    },
+    {
+      "id": "E141_Sp",
+      "p_name": "Mountain Bike Helmet",
+      "p_price": 2200,
+      "p_stock": 15,
+      "p_image": "https://tse2.mm.bing.net/th/id/OIP.iX338z760q3r_FLm1PkBWAHaEO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "p_category": "Sports",
+      "p_description": "Impact-resistant EPS liner with ventilated design."
+    },
+    {
+      "id": "E142_El",
+      "p_name": "Smart Light Bulb",
+      "p_price": 350,
+      "p_stock": 50,
+      "p_image": "https://th.bing.com/th/id/OIP.mJGW8HJP7cUI1UshVJIx_gHaE8?w=350&h=191&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Electronic",
+      "p_description": "16 million colors, voice control, and scheduling."
+    },
+    {
+      "id": "E143_Fa",
+      "p_name": "Polo Shirt",
+      "p_price": 1200,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1521577352947-9bb58764b69a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Breathable pique cotton with a classic two-button placket."
+    },
+    {
+      "id": "E144_HL",
+      "p_name": "Fleece Throw Blanket",
+      "p_price": 1600,
+      "p_stock": 25,
+      "p_image": "https://th.bing.com/th/id/OIP.tfO_D66AFojjZhqQts1QJAHaEy?w=291&h=189&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Home & Living",
+      "p_description": "Ultra-soft microfiber fleece for cozy lounging."
+    },
+    {
+      "id": "E145_Sp",
+      "p_name": "Basketball Size 7",
+      "p_price": 1700,
+      "p_stock": 15,
+      "p_image": "https://th.bing.com/th/id/OIP.F6P-XCd1IRc5baG1OSdbCwHaHa?w=168&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Sports",
+      "p_description": "Indoor/Outdoor composite leather for superior grip."
+    },
+    {
+      "id": "E146_El",
+      "p_name": "USB-C Hub Multiport",
+      "p_price": 1599,
+      "p_stock": 40,
+      "p_image": "https://th.bing.com/th/id/OIP.WFxseftG5DmCRAgvfiMgoAHaHC?w=174&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "p_category": "Electronic",
+      "p_description": "7-in-1 adapter with 4K HDMI, USB 3.0, and SD Card reader."
+    },
+    {
+      "p_name": "Aganpakh",
+      "p_price": 650,
+      "p_stock": 52,
+      "p_image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Aganapankha (Wings of Fire) autobiography of Dr. APJ Abdul Kalam. Inspirational reading.",
+      "id": "-Kllbs48UCY"
+    }
   ],
-  "cart": []
+  "cart": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }

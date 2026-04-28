@@ -1,67 +1,47 @@
-import type { carFetchType, carType } from "../utils/globle";
 
-// TIP: Since you're building a "DriveWay" app, 
-// consider renaming 'product' to 'cars' in your db.json and URL later.
-const carURL = "http://localhost:3000/product/";
+import type { productFetchType, productType } from "../utils/globle";
 
-/**
- * Adds a new vehicle to the inventory
- */
-export const addCar = async (body: carType) => {
-    const res = await fetch(carURL, {
+const productURL = "http://localhost:8001/product/";
+
+export const addProduct = async (body: productType) => {
+    const res = await fetch(productURL, {
         method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
     });
 
     return res.ok;
 }
 
-/**
- * Retrieves all available cars from the database
- */
-export const fetchAllCars = async () => {
-    const res = await fetch(carURL);
-    if (!res.ok) return [];
-    
-    const allCarData = await res.json();
-    return allCarData;
+export const fetchAllProducts = async () => {
+    const res = await fetch(productURL);
+    const allProductData = await res.json();
+
+    return allProductData;
 }
 
-/**
- * Removes a vehicle record by its ID
- */
-export const deleteCar = async (id: string) => {
-    const res = await fetch(carURL + id, {
+export const deleteProduct = async (id: string) => {
+
+    const res = await fetch(productURL + id, {
         method: "DELETE"
     });
 
     return res.ok;
 }
 
-/**
- * Fetches details for a specific vehicle (useful for Edit or Details pages)
- */
-export const fetchSingleCar = async (id: string) => {
-    const res = await fetch(carURL + id, { method: "GET" });
-    
-    if (!res.ok) return null;
-    
-    const singleCar = await res.json();
-    return singleCar;
+export const fetchSingleProduct = async (id: string) => {
+    const res = await fetch(productURL + id, { method: "GET" });
+
+    const singleProduct = await res.json();
+
+    return singleProduct;
+
 }
 
-/**
- * Updates an existing vehicle's information (Price, Stock, etc.)
- */
-export const updateCar = async (body: carFetchType) => {
-    const res = await fetch(carURL + body.id, {
+export const updateProduct = async (body: productFetchType) => {
+    const res = await fetch(productURL + body.id, {
         method: "PATCH",
-        headers: {
-            "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
     });
 

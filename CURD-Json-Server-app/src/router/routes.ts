@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import App from "../App";
 import HomePage from "../page/HomePage";
-import AddCarPage from "../page/AddCarPage";
-import ViewCarPage from "../page/ViewCarPage";
-import EditCarPage from "../page/EditCarPage";
-import CarDetailPage from "../page/CarDetailPage";
+import AddProdutPage from "../page/AddProductPage";
+import ViewProductPage from "../page/ViewProductPage";
 import NotFoundPage from "../page/NotFoundPage";
+import EditProductPage from "../page/EditProductPage";
+import ProductDetailPage from "../page/ProductDetailPage";
 
 export const router = createBrowserRouter([
     {
@@ -17,20 +17,20 @@ export const router = createBrowserRouter([
                 Component: HomePage
             },
             {
-                path: "add-car",
-                Component: AddCarPage
+                path: "add-product",
+                Component: AddProdutPage
             },
             {
-                path: "view-car",
-                Component: ViewCarPage
+                path: "view-product",
+                Component: ViewProductPage
             },
             {
-                path: "edit-car/:id",
-                Component: EditCarPage
+                path: "edit-product/:productId",
+                Component: EditProductPage
             },
             {
-                path: "car-details/:productId",
-                Component: CarDetailPage
+                path: 'product-detail/:productId',
+                Component: ProductDetailPage
             },
             {
                 path: "*",
