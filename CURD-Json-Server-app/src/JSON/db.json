@@ -458,16 +458,8 @@
       "p_category": "Books",
       "p_description": "Aganapankha (Wings of Fire) autobiography of Dr. APJ Abdul Kalam. Inspirational reading.",
       "id": "-Kllbs48UCY"
-    },
-    {
-      "p_name": " laptop",
-      "p_price": 61000,
-      "p_stock": 12,
-      "p_image": "https://m.media-amazon.com/images/I/71FXHAM+jWL._SL1500_.jpg",
-      "p_category": "Electronic",
-      "p_description": "i am Buy laptop",
-      "id": "nkMWgwxxP0U"
     }
+   
   ],
   "cart": [],
   "$schema": "./node_modules/json-server/schema.json"
