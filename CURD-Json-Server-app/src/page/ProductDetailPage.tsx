@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router";
 import { fetchSingleProduct } from "../Services/ProductService";
-import type { productFetchType } from "../utils/global";
+import type { productFetchType } from "../utils/globle";
 
 export default function ProductDetailPage() {
     const { productId } = useParams();
