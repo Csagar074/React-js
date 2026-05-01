@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { BookDataType } from "../utils/type"; // Maan ke chal rahe hain aapne types define kiye hain
+import { BookDataType } from "../utils/type"; 
 import { toast } from "react-toastify";
 
 // Mock data options
